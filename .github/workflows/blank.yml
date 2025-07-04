@@ -35,7 +35,5 @@ jobs:
   
   
         run: |
-          git fetch origin main
-          git diff --name-only origin/main...HEAD
           echo Add other actions to build,
           echo test, and deploy your project.
